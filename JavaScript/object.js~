@@ -1,0 +1,28 @@
+function inherit(p)
+{
+	if(p == null) throw TypeError();
+
+	if(Object.create)
+		return Object.create(p);
+	var t = typeof p;
+
+	if(t !== "object"  && t !== "function") throw TypeError();
+
+	function f(){};
+	f.protoype = p;
+	return new f();
+}
+
+console.log(inherit({}).x);
+
+function extend(o,p)
+{
+ for(prop in p){
+	o[prop] = p[prop];
+ }
+ return 0;
+} 
+
+
+
+

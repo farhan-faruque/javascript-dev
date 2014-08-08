@@ -1,0 +1,1 @@
+Hello.It's really intereasting to work in Node.js. Node is Server side javascript language running on Chromes's Javascript runtime. It's main feature is Non blocking I/O.
