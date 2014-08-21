@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express@4.8.5' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose cache add [ 'express@4.8.5', null ]
+5 verbose cache add name=undefined spec="express@4.8.5" args=["express@4.8.5",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'express@4.8.5',
+6 verbose parsed url   path: 'express@4.8.5',
+6 verbose parsed url   href: 'express@4.8.5' }
+7 verbose cache add name="express" spec="4.8.5" args=["express","4.8.5"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '4.8.5',
+8 verbose parsed url   path: '4.8.5',
+8 verbose parsed url   href: '4.8.5' }
+9 verbose addNamed [ 'express', '4.8.5' ]
+10 verbose addNamed [ '4.8.5', '4.8.5' ]
+11 silly lockFile 680c24b6-express-4-8-5 express@4.8.5
+12 verbose lock express@4.8.5 /home/farhan/.npm/680c24b6-express-4-8-5.lock
+13 verbose url raw express/4.8.5
+14 verbose url resolving [ 'https://registry.npmjs.org/', './express/4.8.5' ]
+15 verbose url resolved https://registry.npmjs.org/express/4.8.5
+16 info trying registry request attempt 1 at 18:44:35
+17 http GET https://registry.npmjs.org/express/4.8.5
+18 http 200 https://registry.npmjs.org/express/4.8.5
+19 silly registry.get cb [ 200,
+19 silly registry.get   { date: 'Thu, 21 Aug 2014 12:48:01 GMT',
+19 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+19 silly registry.get     etag: '"2P1O91NYYIO059EQV8L6LQTJP"',
+19 silly registry.get     'content-type': 'application/json',
+19 silly registry.get     'cache-control': 'max-age=60',
+19 silly registry.get     'content-length': '2923',
+19 silly registry.get     'accept-ranges': 'bytes',
+19 silly registry.get     via: '1.1 varnish',
+19 silly registry.get     age: '900',
+19 silly registry.get     'x-served-by': 'cache-lax1427-LAX',
+19 silly registry.get     'x-cache': 'MISS',
+19 silly registry.get     'x-cache-hits': '0',
+19 silly registry.get     'x-timer': 'S1408625280.729400,VS0,VE315',
+19 silly registry.get     vary: 'Accept',
+19 silly registry.get     'keep-alive': 'timeout=10, max=50',
+19 silly registry.get     connection: 'Keep-Alive' } ]
+20 silly lockFile d610624a-js-org-express-express-4-8-5-tgz https://registry.npmjs.org/express/-/express-4.8.5.tgz
+21 verbose lock https://registry.npmjs.org/express/-/express-4.8.5.tgz /home/farhan/.npm/d610624a-js-org-express-express-4-8-5-tgz.lock
+22 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.8.5.tgz',
+22 verbose addRemoteTarball   '59cf7666c29bf7cb8545a1acd43dd81a52cb26d9' ]
+23 silly lockFile d610624a-js-org-express-express-4-8-5-tgz https://registry.npmjs.org/express/-/express-4.8.5.tgz
+24 silly lockFile d610624a-js-org-express-express-4-8-5-tgz https://registry.npmjs.org/express/-/express-4.8.5.tgz
+25 silly lockFile 680c24b6-express-4-8-5 express@4.8.5
+26 silly lockFile 680c24b6-express-4-8-5 express@4.8.5
+27 error Error: EACCES, mkdir '/home/farhan/tmp/npm-6538-pB8akD_4'
+27 error  { [Error: EACCES, mkdir '/home/farhan/tmp/npm-6538-pB8akD_4']
+27 error   errno: 3,
+27 error   code: 'EACCES',
+27 error   path: '/home/farhan/tmp/npm-6538-pB8akD_4' }
+28 error Please try running this command again as root/Administrator.
+29 error System Linux 3.8.0-44-generic
+30 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "express@4.8.5"
+31 error cwd /home/farhan/my-works/javascript-dev/ENodeExpress
+32 error node -v v0.10.21
+33 error npm -v 1.3.11
+34 error path /home/farhan/tmp/npm-6538-pB8akD_4
+35 error code EACCES
+36 error errno 3
+37 error stack Error: EACCES, mkdir '/home/farhan/tmp/npm-6538-pB8akD_4'
+38 verbose exit [ 3, true ]
